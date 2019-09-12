@@ -1,5 +1,5 @@
 #include <stdio.h> 
-#include <stdio.h>
+#include <stdlib.h>
 
 int binarySearch(int arr[], int l, int r, int x) 
 
@@ -39,11 +39,11 @@ int main(void)
 
     int result = binarySearch(arr, 0, n - 1, x); 
 
-    (result == -1) ? printf("The element is not present"
+    (result == -1) ? printf("The data is not found"
 
                             " in array") 
 
-                   : printf("The element is present at "
+                   : printf("The data is found at "
 
                             "index %d", 
 
